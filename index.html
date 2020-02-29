@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Bootstrap 4 Layout</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <style>
+            .fanta
+    {
+        font-family: 'Trade Winds';
+        font-size: 40px;
+        
+    }
+.mdi{
+    height:100px; width:100px;
+    transition: 0.8s;
+    
+}
+.mdi:hover{
+    transform: scale(1.15);
+    
+}
+.card{
+    transition: 0.6s;
+}
+.card:hover{
+    transform: scale(1.08);
+}
+@media only screen and (max-width: 600px) {
+    .fanta{
+        font-size:17px;
+    }
+    .mdi
+    {
+        height:50px; width:50px;
+    }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
+                <a class="navbar-brand fanta" href="#">
+                    <img src="515937.png"class="inline-block align-top rounded-circle align-middle mdi" data-toggle="tooltip" data-placement="top" title="This is our logo!!" alt="">
+                  Srijan Panta</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+</button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                Lab Exercises
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Lab Exercise 1</a>
+                                <a class="dropdown-item" href="#">Lab Exercise 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Another Lab Exercise</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-info my-2 my-sm-0 bg-gradient-info text-white" type="submit">Search</button>
+                      </form>
+                </div>
+            </nav>
+            <div class="jumbotron">
+                <h1 class="display-4">Simple. Elegant. Awesome.</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            
+                <p class="lead">
+                    <a class="btn btn-info btn-lg bg-gradient-info" href="#" role="button">Learn more</a>
+                </p>
+            </div>
+                <div class="row">
+    <div class="col">
+        <div class="card mb-4 shadow bg-white rounded">
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title</p>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-4 shadow bg-white rounded">
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title</p>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-4 shadow bg-white rounded">
+            <div class="card-body text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title</p>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="row mt-sm-4 mt-md-0">
+    <div class="col-sm-12 col-md-8 text-sm-center text-md-left">
+        <h3>An important heading</h3>
+        <p class="lead">A sort of important subheading can go here, which is larger and gray.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+
+    <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4">
+            <h3 class="mb-4">Secondary Menu</h3>
+    
+            <ul class="nav flex-column nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+
+</div>
+</div>
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
